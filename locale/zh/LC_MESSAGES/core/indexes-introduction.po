@@ -95,7 +95,7 @@ msgstr "复合索引"
 # 48d68cb11a664862bbe6571b10907c9e
 #: ../source/core/indexes-introduction.txt:106
 msgid "MongoDB *also* supports user-defined indexes on multiple fields. These :doc:`compound indexes </core/index-compound>` behave like single-field indexes; *however*, the query can select documents based on additional fields. The order of fields listed in a compound index has significance. For instance, if a compound index consists of ``{ userid: 1, score: -1 }``, the index sorts first by ``userid`` and then, within each ``userid`` value, sort by ``score``. Consider the following illustration of this compound index:"
-msgstr "MongoDB *也* 支持用户对多个键建立自定义索引。这些 :doc:`复合索引 </core/index-compound>` 就像单键索引一样；*不同的是* ，查询可以基于多个键来选择文档。在符合索引中的键的顺序很重要。比如说，如果一个复合索引是这样： ``{ userid: 1, score: -1 }`` ，那么索引首先会基于 ``userid`` 的值对文档排序，然后对于相同 ``userid`` 的文档，再按照 ``score`` 排序。以下是复合索引的示例："
+msgstr "MongoDB *也* 支持用户对多个键建立自定义索引。这些 :doc:`复合索引 </core/index-compound>` 就像单键索引一样；*不同的是* ，查询可以基于多个键来选择文档。在复合索引中的键的顺序很重要。比如说，如果一个复合索引是这样： ``{ userid: 1, score: -1 }`` ，那么索引首先会基于 ``userid`` 的值对文档排序，然后对于相同 ``userid`` 的文档，再按照 ``score`` 排序。以下是复合索引的示例："
 
 # b86a86888ff44e99b1714aa0e0baf342
 #: ../source/core/indexes-introduction.txt:118
